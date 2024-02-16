@@ -4,7 +4,7 @@
 <h3>February 2024</h3>
 </center>
 <h2>Introduction</h2>
-The Northern pikeminnow (Ptychocheilus oregonensis) is a freshwater predatory fish native to lakes, streams, and rivers in the Pacific Northwest of the United States. 
+The Northern pikeminnow (<i>Ptychocheilus oregonensis</i>) is a freshwater predatory fish native to lakes, streams, and rivers in the Pacific Northwest of the United States. 
 
 
 ![Pikeminnow](pikeminnow1.jpg)
@@ -31,7 +31,7 @@ I decided to use stream power, thermal amplitude, mean temperature in July, mean
 
 ${\Omega} = {\rho}gQS$
 
-where ${\rho}$ is the water density (1000 kg/m$^{3}$), g is the acceleration due to gravity (9.8 m/s$^{2}$), Q is the stream flow rate in m$^{3}$/s, and S is the stream slope.  Thermal amplitude was defined as the mean temperature in January subtracted from the mean temperature in July.  Drainage area was defined in km$^{2}$ and all temperatures were in degrees Celsius.
+where ${\rho}$ is the water density (1000 kg/m<sup>3</sup>), g is the acceleration due to gravity (9.8 m/s<sup>2</sup>), Q is the stream flow rate in m<sup>3</sup>/s, and S is the stream slope.  Thermal amplitude was defined as the mean temperature in January subtracted from the mean temperature in July.  Drainage area was defined in km<sup>2</sup> and all temperatures were in degrees Celsius.
 
 Having extracted samples from the raster features that are the same in number as the observations (556), I next checked to ensure that none of the features are strongly correlated with one another, such that I can minimize covariance and ensure the features are independent of one another. If correlated, these features are likely not linear, so I used Spearman's <i>r</i> instead of the Pearson <i>r</i> to calculate the correlations, becasue Spearman's <i>r</i> is a nonparametric correlation coefficient.  Several studies have used a <i>r</i> > |0.75| or larger correlation coefficient to indicate substantially dependent features, and I use that threshold here as well. [7,8,9]
 
