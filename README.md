@@ -64,6 +64,8 @@ Having trained and fit all the models, the cross-validation scores are shown bel
 
 The best-performing combination of k-fold cross-validation and model was the Extra Trees with 3-fold cross-validation.  It provided the highest F1 score with the lowest variance.  An averaged species occurence probability map is shown below.  
 
+![output](sdm_map.png)
+
 <h2>Conclusions</h2>
 
 Based on the F1 scores, these results are not fantastic.  The optimal F1 score is 1, reflecting perfect accuracy and perfect recall.  These scores are much lower, a reflection of the fact that we have few overall observations and inbalanced numbers of presence and absence observations.  The precision and recall are both below 50% across all numbers of cross-validation folds.  To increase the F1 score, many more observations would be required, particularly in the presence category.  Somewhat ironically, the Northern Pikeminnow Sport-Reward Program keeps detailed statistics on the pikeminnow catch from various points along the Snake and Columbia River watersheds, totalling thousands of fish a month throughout the spring and summer months every year.[10]  However, without detailed coordinates of the locations of these fish before they were caught, these data cannot be used in this study.  Likewise, the GBIF website shows only 134 observations of northern pikeminnow for the state of Washington, only 26 of which were a live animal and not a preserved specimen.[2]  These 26 observations were included in the study and did increase the balance between presence and absence observations, but only slightly. 
@@ -71,3 +73,26 @@ Based on the F1 scores, these results are not fantastic.  The optimal F1 score i
 More work is clearly required to record accurate presence and absence data for northern pikeminnow to be able to create a more accurate species distribution model for this species in Washington.
 
 However, the consensus occurence map shows larger probability of pikeminnow presence in those areas where we know pikeminnow currently occur (Snake and Columbia rivers), with larger probability also seen in the rivers that feed these main rivers, the Yakima and Spokane rivers especially.  Small probability of occurence is also present in major rivers in western Washington, notably the Snohomish, Skagit, and to a smaller extent the Nisqually, Cowlitz, White, and Puyallup rivers.
+
+<h2>References</h2>
+
+[1] https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states
+
+[2] GBIF.org (16 February 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.sqar36 
+
+[3] https://daniel-furman.github.io/Python-species-distribution-modeling/
+
+[4] https://doi.org/10.1007/s00027-014-0386-z
+
+[5] https://doi.org/10.1007/s00027-015-0413-8
+
+[6] https://doi.org/10.1016/j.ecolmodel.2020.108937
+
+[7] https://doi.org/10.1016/j.limno.2013.12.001
+
+[8] https://doi.org/10.1111/ddi.12086
+
+[9] https://doi.org/10.1038/s41598-023-41406-9
+
+[10] https://www.pikeminnow.org/
+
