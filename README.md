@@ -41,7 +41,7 @@ Based on these results, none of the 5 features are correlated strongly enough wi
 
 <h2>Model Fitting</h2>
 
-I set all NaNs to 0 for model training purposes.  Looking at the observation data, although there are 556 observations the vast majority of these are absences (there are only 61 presence points in the data set).  This inbalance of observations makes choosing an accuracy metric especially crucial so as to best reflect the degree of overfitting, the most direct route for which would be the model simply predicting all observations as absences.  This would result in a 89% "accuracy" but be a terrible classifier.  Also, based on the limited number of observations overall, k-fold cross-validation will be an important tool to use to avoid overfitting more generally.  However, it is not clear what the best-performing cross-validation level will be. As such, I tested 3-, 4-, and 5-fold cross validation configurations to determine the effect this had on model performance. 
+I set all NaNs to 0 for model training purposes.  Looking at the observation data, although there are 556 observations the vast majority of these are absences (there are only 61 presence points in the data set).  This inbalance of observations makes choosing an accuracy metric especially crucial so as to best reflect the degree of overfitting, the most direct route for which would be the model simply predicting all observations as absences.  This would result in a 89% "accuracy" but be a terrible classifier.  I therefore chose F1 score as it is a harmonic blend of precision and recall, commonly used in these conditions, and I also split out precision and recall separately to determine which was contributing most strongly to a particular F1 score.[10] Also, based on the limited number of observations overall, <i>k</i>-fold cross-validation will be an important tool to use to avoid overfitting more generally.  However, it is not clear what the best-performing cross-validation level will be. As such, I tested 3-, 4-, and 5-fold cross validation configurations to determine the effect this had on model performance. 
 
 <h2>Results</h2>
 
@@ -72,7 +72,7 @@ After uploading the generated rasters back into QGIS and averaging there, I over
 
 <h2>Conclusions</h2>
 
-Based on the F1 scores, these results are not fantastic.  The optimal F1 score is 1, reflecting perfect accuracy and perfect recall.  These scores are much lower, a reflection of the fact that we have few overall observations and inbalanced numbers of presence and absence observations.  The precision and recall are both below 50% across all numbers of cross-validation folds.  To increase the F1 score, many more observations would be required, particularly in the presence category.  Somewhat ironically, the Northern Pikeminnow Sport-Reward Program keeps detailed statistics on the pikeminnow catch from various points along the Snake and Columbia River watersheds, totalling thousands of fish a month throughout the spring and summer months every year.[10]  However, without detailed coordinates of the locations of these fish before they were caught, these data cannot be used in this study.  Likewise, the GBIF website shows only 134 observations of northern pikeminnow for the state of Washington, only 26 of which were a live animal and not a preserved specimen.[2]  These 26 observations were included in the study and did increase the balance between presence and absence observations, but only slightly. 
+Based on the F1 scores, these results are not fantastic.  The optimal F1 score is 1, reflecting perfect accuracy and perfect recall.  These scores are much lower, a reflection of the fact that we have few overall observations and inbalanced numbers of presence and absence observations.  The precision and recall are both below 50% across all numbers of cross-validation folds.  To increase the F1 score, many more observations would be required, particularly in the presence category.  Somewhat ironically, the Northern Pikeminnow Sport-Reward Program keeps detailed statistics on the pikeminnow catch from various points along the Snake and Columbia River watersheds, totalling thousands of fish a month throughout the spring and summer months every year.[11]  However, without detailed coordinates of the locations of these fish before they were caught, these data cannot be used in this study.  Likewise, the GBIF website shows only 134 observations of northern pikeminnow for the state of Washington, only 26 of which were a live animal and not a preserved specimen.[2]  These 26 observations were included in the study and did increase the balance between presence and absence observations, but only slightly. 
 
 More work is clearly required to record accurate presence and absence data for northern pikeminnow to be able to create a more accurate species distribution model for this species in Washington.
 
@@ -98,5 +98,7 @@ However, the consensus occurence map shows larger probability of pikeminnow pres
 
 [9] https://doi.org/10.1038/s41598-023-41406-9
 
-[10] https://www.pikeminnow.org/
+[10] https://www.statology.org/f1-score-vs-accuracy/
+
+[11] https://www.pikeminnow.org/
 
