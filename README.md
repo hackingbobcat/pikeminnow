@@ -66,6 +66,10 @@ The best-performing combination of k-fold cross-validation and model was the Ext
 
 ![output](sdm_map.png)
 
+After uploading the generated rasters back into QGIs and averaging there, I overlaid with a basemap for geogrpahical reference and that image is below.
+
+![finaldis](pikeminnow._dist.png)
+
 <h2>Conclusions</h2>
 
 Based on the F1 scores, these results are not fantastic.  The optimal F1 score is 1, reflecting perfect accuracy and perfect recall.  These scores are much lower, a reflection of the fact that we have few overall observations and inbalanced numbers of presence and absence observations.  The precision and recall are both below 50% across all numbers of cross-validation folds.  To increase the F1 score, many more observations would be required, particularly in the presence category.  Somewhat ironically, the Northern Pikeminnow Sport-Reward Program keeps detailed statistics on the pikeminnow catch from various points along the Snake and Columbia River watersheds, totalling thousands of fish a month throughout the spring and summer months every year.[10]  However, without detailed coordinates of the locations of these fish before they were caught, these data cannot be used in this study.  Likewise, the GBIF website shows only 134 observations of northern pikeminnow for the state of Washington, only 26 of which were a live animal and not a preserved specimen.[2]  These 26 observations were included in the study and did increase the balance between presence and absence observations, but only slightly. 
