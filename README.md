@@ -68,7 +68,7 @@ The best-performing combination of k-fold cross-validation and model was the Ext
 
 After uploading the generated rasters for each model back into QGIS and averaging there, I overlaid the averaged raster with a basemap for geographical reference and that image is below.
 
-![finaldis](pikeminnow_dist.png)
+![finaldis](pikeminnow_final.png)
 
 <h2>Conclusions</h2>
 
