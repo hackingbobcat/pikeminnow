@@ -82,32 +82,32 @@ Finally, more hyper-parameter tuning could be performed to optimize the performa
 
 <h2>References</h2>
 
-[1] https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states
+1. [https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states](https://www.usgs.gov/data/presence-absence-database-fish-conterminous-united-states)
 
-[2] GBIF.org (16 February 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.sqar36 
+2. [GBIF.org (16 February 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.sqar36](https://doi.org/10.15468/dl.sqar36) 
 
-[3] https://onlinelibrary.wiley.com/doi/full/10.1111/j.1472-4642.2010.00725.x
+3. [https://onlinelibrary.wiley.com/doi/full/10.1111/j.1472-4642.2010.00725.x](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1472-4642.2010.00725.x)
 
-[4] https://daniel-furman.github.io/Python-species-distribution-modeling/
+4. [https://daniel-furman.github.io/Python-species-distribution-modeling/](https://daniel-furman.github.io/Python-species-distribution-modeling/)
 
-[5] https://worldclim.org/data/index.html
+5. [https://worldclim.org/data/index.html](https://worldclim.org/data/index.html)
 
-[6] https://doi.org/10.1007/s00027-014-0386-z
+6. [https://doi.org/10.1007/s00027-014-0386-z](https://doi.org/10.1007/s00027-014-0386-z)
 
-[7] https://doi.org/10.1007/s00027-015-0413-8
+7. [https://doi.org/10.1007/s00027-015-0413-8](https://doi.org/10.1007/s00027-015-0413-8)
 
-[8] https://doi.org/10.1016/j.ecolmodel.2020.108937
+8. [https://doi.org/10.1016/j.ecolmodel.2020.108937](https://doi.org/10.1016/j.ecolmodel.2020.108937)
 
-[9] https://www.epa.gov/waterdata/get-nhdplus-national-hydrography-dataset-plus-data
+9. [https://www.epa.gov/waterdata/get-nhdplus-national-hydrography-dataset-plus-data](https://www.epa.gov/waterdata/get-nhdplus-national-hydrography-dataset-plus-data)
 
-[10] https://doi.org/10.1016/j.limno.2013.12.001
+10. [https://doi.org/10.1016/j.limno.2013.12.001](https://doi.org/10.1016/j.limno.2013.12.001)
 
-[11] https://doi.org/10.1111/ddi.12086
+11. [https://doi.org/10.1111/ddi.12086](https://doi.org/10.1111/ddi.12086)
 
-[12] https://doi.org/10.1038/s41598-023-41406-9
+12. [https://doi.org/10.1038/s41598-023-41406-9](https://doi.org/10.1038/s41598-023-41406-9)
 
-[13] https://www.statology.org/f1-score-vs-accuracy/
+13. [https://www.statology.org/f1-score-vs-accuracy/](https://www.statology.org/f1-score-vs-accuracy/)
 
-[14] https://www.pikeminnow.org/
+14. [https://www.pikeminnow.org/](https://www.pikeminnow.org/)
 
-[15] https://scikit-learn.org/stable/modules/ensemble.html#forest
+15. [https://scikit-learn.org/stable/modules/ensemble.html#forest](https://scikit-learn.org/stable/modules/ensemble.html#forest)
