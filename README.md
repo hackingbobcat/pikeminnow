@@ -78,7 +78,7 @@ More work is clearly required to record accurate presence and absence data for N
 
 However, the consensus occurence map shows larger probability of pikeminnow presence in those areas where we know pikeminnow currently occur (Snake and Columbia rivers), with larger probability also seen in the rivers that feed these main rivers, the Yakima and Spokane rivers especially. Smaller probability of occurence is also observed in some major rivers in western Washington, notably the Snohomish and Skagit, and to a smaller extent the Nisqually, Cowlitz, White, and Puyallup rivers.
 
-Finally, more hyper-parameter tuning could be performed to optimize the performance of the Extra Trees model. Specifically, <i>n-estimators</i> and <i>max_features</i> control the number of trees in the forest and the size of the random subsets of features to consider when splitting a node and are the two main parameters to adjust.[15] However, I did not perform this tuning here because the overall lack of data is more liekly to affect model performance compared to hyper-parameter tuning.
+Finally, more hyper-parameter tuning could be performed to optimize the performance of the Extra Trees model. Specifically, <i>n_estimators</i> and <i>max_features</i> control the number of trees in the forest and the size of the random subsets of features to consider when splitting a node and are the two main parameters to adjust.[15] However, I did not perform this tuning here because the overall lack of data is more liekly to affect model performance compared to hyper-parameter tuning.
 
 <h2>References</h2>
 
