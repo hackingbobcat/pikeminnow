@@ -31,7 +31,7 @@ This study uses stream power, thermal amplitude, mean temperature in July, mean 
 
 ![Equation1](pikeminnow_eq.png)
 
-where ${\rho}$ is the water density (1000 kg/m<sup>3</sup>), g is the acceleration due to gravity (9.8 m/s<sup>2</sup>), Q is the stream flow rate in m<sup>3</sup>/s, and S is the stream slope. Thermal amplitude was defined as the mean temperature in January subtracted from the mean temperature in July. Drainage area was defined in km<sup>2</sup> and all temperatures were in degrees Celsius.
+where &#03C1 is the water density (1000 kg/m<sup>3</sup>), g is the acceleration due to gravity (9.8 m/s<sup>2</sup>), Q is the stream flow rate in m<sup>3</sup>/s, and S is the stream slope. Thermal amplitude was defined as the mean temperature in January subtracted from the mean temperature in July. Drainage area was defined in km<sup>2</sup> and all temperatures were in degrees Celsius.
 
 I extracted samples from the raster features that were the same in number as the observations (556). I next checked the covariance of the features with each other to ensure the features were independent. If features were correlated they were unlikely to be correlated linearly. I therefore used Spearman's <i>r</i> instead of the Pearson <i>r</i> to calculate the correlations becasue Spearman's <i>r</i> is a nonparametric correlation coefficient. Several studies used a <i>abs(r)</i> > 0.75 or larger to indicate substantially dependent features, and I use that threshold here as well. [10,11,12]
 
